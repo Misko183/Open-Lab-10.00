@@ -6,11 +6,11 @@ namespace Open_Lab_10._00
 {
     class Book
     {
-        private string Title { get; set; } 
-        private int Pages { get; set; } 
-        private string Category { get; set; }
-        private string Author { get; set; }
-        private int ReleaseDate { get; set; }
+        public string Title { get; set; }
+        public int Pages { get; set; }
+        public string Category { get; set; }
+        public string Author { get; set; }
+        public int ReleaseDate { get; set; }
 
         public Book(string title, int pages, string category, string author, int releaseDate)
         {
@@ -26,4 +26,8 @@ namespace Open_Lab_10._00
         }
     }
 }
+        
+        
+
+        
         
