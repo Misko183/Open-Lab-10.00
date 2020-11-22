@@ -7,6 +7,10 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {
             Console.WriteLine("My name is m1kes, please support me on my Youtube---> m1kes");
+
+            Book LOTR = new Book("Miskove dobrodruzstva", 150);
+
+            Console.WriteLine(LOTR.Title);
         }
     }
 }
