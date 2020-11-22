@@ -8,12 +8,12 @@ namespace Open_Lab_10._00
         {
             Console.WriteLine("My name is m1kes, please support me on my Youtube---> m1kes");
 
-            /* Book LOTR = new Book("Miskove dobrodruzstva", 150,"SCI-FI","Michal Sladecek",2054);
+            /* Book LOTR = new Book("Miskove dobrodruzstva", 150,"SCI-FI","Michal Sladecek",2020);
 
              Console.WriteLine(LOTR.ToString());
             */
 
-            Console.Write("Name of Book: ");
+            /*Console.Write("Name of Book: ");
             string title = Console.ReadLine();
 
             Console.Write("Pages: ");
@@ -41,6 +41,15 @@ namespace Open_Lab_10._00
             Book LORT = new Book(title, pages, category, author, releaseDate);
 
             Console.WriteLine($"{LORT.Title} {LORT.Pages} {LORT.Category} {LORT.Author} {LORT.ReleaseDate}");
+            */
+
+            Book LORT2 = new Book();
+            Book LORT3 = new Book("Miskove dobrodruzstvo", 150);
+            Book HOBIT = new Book("Miskove dobrodruzstva", 150, "SCI-FI", "Michal Sladecek", 2020);
+
+            Console.WriteLine(LORT2.ToString());
+            Console.WriteLine(LORT3.ToString());
+            Console.WriteLine(HOBIT.ToString());
         }
     }
 }

@@ -20,6 +20,22 @@ namespace Open_Lab_10._00
             Author = author;
             ReleaseDate = releaseDate;
         }
+        public Book()
+        {
+            Title = "-1";
+            Pages = -1;
+            Category = "-1";
+            Author = "-1";
+            ReleaseDate = -1;
+        }
+        public Book(string title, int pages)
+        {
+            Title = title;
+            Pages = pages;
+            Category = "-1";
+            Author = "-1";
+            ReleaseDate = -1;
+        }
         public override string ToString()
         {
             return $"{Title}\n{Pages}\n{Category}\n{Author}\n{ReleaseDate}";
