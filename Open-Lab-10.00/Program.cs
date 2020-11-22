@@ -8,9 +8,11 @@ namespace Open_Lab_10._00
         {
             Console.WriteLine("My name is m1kes, please support me on my Youtube---> m1kes");
 
-            Book LOTR = new Book("Miskove dobrodruzstva", 150);
+            Book LOTR = new Book("Miskove dobrodruzstva", 150,"SCI-FI","Michal Sladecek",2022);
 
-            Console.WriteLine(LOTR.Title);
+            Console.WriteLine(LOTR.ToString());
+
+           
         }
     }
 }
