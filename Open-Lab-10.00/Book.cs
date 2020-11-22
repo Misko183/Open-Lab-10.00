@@ -8,9 +8,15 @@ namespace Open_Lab_10._00
     {
         public string Title { get; set; }
         public int Pages { get; set; }
-        public string Category { get; set; }
+        public string Category { private get; set; }
         public string Author { get; set; }
         public int ReleaseDate { get; set; }
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        public static List<string> CategoryList = new List<string>() { "detské", "romantické", "náučné", "sci-fi", "dobrodružné" };
+        
 
         public Book(string title, int pages, string category, string author, int releaseDate)
         {

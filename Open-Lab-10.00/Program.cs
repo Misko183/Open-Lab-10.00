@@ -43,12 +43,16 @@ namespace Open_Lab_10._00
             Console.WriteLine($"{LORT.Title} {LORT.Pages} {LORT.Category} {LORT.Author} {LORT.ReleaseDate}");
             */
 
-            Book LORT2 = new Book();
+            /*Book LORT2 = new Book();
             Book LORT3 = new Book("Miskove dobrodruzstvo", 150);
             Book HOBIT = new Book("Miskove dobrodruzstva", 150, "SCI-FI", "Michal Sladecek", 2020);
 
             Console.WriteLine(LORT2.ToString());
             Console.WriteLine(LORT3.ToString());
+            Console.WriteLine(HOBIT.ToString());
+            */
+            
+            Book HOBIT = new Book("Miskove dobrodruzstva", 150, Book.CategoryList[3], "Michal Sladecek", 2020);
             Console.WriteLine(HOBIT.ToString());
         }
     }
